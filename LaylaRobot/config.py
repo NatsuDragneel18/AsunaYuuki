@@ -28,7 +28,7 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ' '  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "redis-12147.c251.east-us-mz.azure.cloud.redislabs.com"  # needed for any database modules
     MONGO_DB_URI = "mongodb+srv://asuna:asuna123@cluster0.9zv2k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
@@ -71,7 +71,7 @@ class Config(object):
     TEMP_DOWNLOAD_DIRECTORY = "/downloads"
     BOT_ID = ""
     VIRUS_API_KEY = ""
-    REDIS_URL = ""
+    REDIS_URL = "redis-12147.c251.east-us-mz.azure.cloud.redislabs.com"
     OPENWEATHERMAP_ID = "53713b3c406eac9bfca775ce9a2001f2"
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
