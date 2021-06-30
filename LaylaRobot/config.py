@@ -70,6 +70,7 @@ class Config(object):
     HEROKU_API_KEY = "014ce2a3-065e-4b88-a883-691087e2a7dc"
     HEROKU_APP_NAME = "asunabotx"
     VIRUS_API_KEY = " "
+    TEMP_DOWNLOAD_DIRECTORY = "./downloads"
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
 
