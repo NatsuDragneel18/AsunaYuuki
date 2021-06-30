@@ -29,6 +29,7 @@ class Config(object):
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = "mongodb+srv://asuna:asuna123@cluster0.9zv2k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"  # needed for any database modules
+    MONGO_DB_URI = "mongodb+srv://asuna:asuna123@cluster0.9zv2k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
