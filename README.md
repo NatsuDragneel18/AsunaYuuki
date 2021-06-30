@@ -1,9 +1,15 @@
-[![Deploy](https://telegra.ph/file/aaa10262ebe6670eecf58.jpg)](https://heroku.com/deploy?template=https://github.com/QueenArzoo/LaylaRobot.git)
-# Layla Robot
+[![Deploy](https://telegra.ph/file/aaa10262ebe6670eecf58.jpg)](https://heroku.com/deploy?template=https://github.com/zYxDevs/AsunaYuuki.git)
+# Asuna Yuuki
 ### Click Below Image to Deploy
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://perso.crans.org/besson/LICENSE.html) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
 
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
+
+Can be found on telegram as [Asuna Yuuki](https://t.me/YogaWaifuBot).
+
+The Support group can be reached out to at [Asuna Support](https://t.me/YuukiAsunaSupportChat), where you can ask for help about [Asuna Yuuki](https://t.me/YogaWaifuBot), discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
+
+News channel as at [Asuna Updates](https://t.me/YuukiAsunaOfficial)
 
 ## How to setup/deploy.
 
@@ -19,7 +25,7 @@ Turn on worker dyno (Don't worry It's free :D) & Webhook
 Now send the bot /start, If it doesn't respond go to https://dashboard.heroku.com/apps/(app-name)/settings and remove webhook and port.
 ```
 
-[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FQueenArzoo%2FLaylaRobot&template=https%3A%2F%2Fgithub.com%2FQueenArzoo%2FLaylaRobot)
+[![Deploy To Heroku](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FzYxDevs%2FAsunaYuuki&template=https%3A%2F%2Fgithub.com%2FzYxDevs%2FAsunaYuuki)
 
 
 
