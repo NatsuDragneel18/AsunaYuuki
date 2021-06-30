@@ -70,6 +70,7 @@ class Config(object):
     HEROKU_APP_NAME = "asunabotx"
     TEMP_DOWNLOAD_DIRECTORY = "/downloads"
     BOT_ID = ""
+    VIRUS_API_KEY = ""
     OPENWEATHERMAP_ID = "53713b3c406eac9bfca775ce9a2001f2"
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
