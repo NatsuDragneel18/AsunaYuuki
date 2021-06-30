@@ -28,6 +28,7 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
+    SQLALCHEMY_DATABASE_URI = "mongodb+srv://asuna:asuna123@cluster0.9zv2k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
     MONGO_DB_URI = "mongodb+srv://asuna:asuna123@cluster0.9zv2k.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"  # needed for any database modules
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
