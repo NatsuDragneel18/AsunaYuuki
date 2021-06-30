@@ -39,16 +39,16 @@ class Config(object):
     SPAMWATCH_API = "0WZ1Dpb0_qjDjq0Z4NqAdF7H1RGLI1HhUVtHQ47VU6siLCeTePPIIVMDi6amvx_P"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "SpamWatchSupport"
 
-    # OPTIONAL
-    ##List of id's -  (not usernames) for users which have sudo access to the bot.
- #   DRAGONS = get_user_list("elevated_users.json", "sudos")
-    ##List of id's - (not usernames) for developers who will have the same perms as the owner
- #   DEV_USERS = get_user_list("elevated_users.json", "devs")
+     OPTIONAL
+    #List of id's -  (not usernames) for users which have sudo access to the bot.
+    DRAGONS = 1249591948 #get_user_list("elevated_users.json", "sudos")
+    #List of id's - (not usernames) for developers who will have the same perms as the owner
+    DEV_USERS = 1883915673 #get_user_list("elevated_users.json", "devs")
     ##List of id's (not usernames) for users which are allowed to gban, but can also be banned.
- #   DEMONS = get_user_list("elevated_users.json", "supports")
+    DEMONS = 1685367342 #get_user_list("elevated_users.json", "supports")
     # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
- #   TIGERS = get_user_list("elevated_users.json", "tigers")
- #   WOLVES = get_user_list("elevated_users.json", "whitelists")
+    TIGERS = "" #get_user_list("elevated_users.json", "tigers")
+    WOLVES = "" #get_user_list("elevated_users.json", "whitelists")
     DONATION_LINK = "https://paypal.me/YogaPranataDMK"  # EG, paypal
     CERT_PATH = None
     PORT = 5000
