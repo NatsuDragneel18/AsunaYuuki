@@ -67,6 +67,7 @@ class Config(object):
     )
     AI_API_KEY = " "  # For chatbot, get one from https://coffeehouse.intellivoid.net/dashboard
     HEROKU_API_KEY = "014ce2a3-065e-4b88-a883-691087e2a7dc"
+    HEROKU_APP_NAME = "asunabotx"
     OPENWEATHERMAP_ID = "53713b3c406eac9bfca775ce9a2001f2"
     BL_CHATS = []  # List of groups that you want blacklisted.
     SPAMMERS = None
